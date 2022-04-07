@@ -1,0 +1,194 @@
+   20  cat php wilders.csv php_france_2019.csv
+   21  ls
+   22  ls
+   23  vi php_france_2019.csv
+   24  ls
+   25  mkdir text.txt
+   26  ls
+   27  rmdir text.txt/
+   28  ls
+   29  cat > php_france_2019.csv
+   30  ls
+   31  grep php wilders.csv php_france_2019.csv 
+   32  grep php wilders.csv > php_france_2019.csv 
+   33  cat php wilders.csv > php_france_2019.csv 
+   34  grep "php" < wilders.csv | wc -1
+   35  grep php
+   36  grep php wilders.csv 
+   37  grep -i php wilders.csv 
+   38  grep -i php wilders.csv > php_france_2019.csv 
+   39  ls
+   40  mv php_france_2019.csv 
+   41  rm php_france_2019.csv 
+   42  rm php_france_2019.csv 
+   43  touch php_france_2019.csv
+   44  ls
+   45  grep -i php wilders.csv > php_france_2019.csv 
+   46  cat php_france_2019.csv 
+   47  ls
+   48  rm php_france_2019.csv
+   49  touch php_france_2019.csv
+   50  grep -i "php;france" wilders.csv > php_france_2019.csv 
+   51  cat php_france_2019.csv 
+   52  grep -i "php, france" wilders.csv > php_france_2019.csv 
+   53  cat php_france_2019.csv 
+   54  grep -i "php;france;2019" wilders.csv > php_france_2019.csv 
+   55  cat php_france_2019.csv 
+   56  grep -c "php;france;2019" wilders.csv  
+   57  grep -c "php,france,2019" wilders.csv  
+   58  grep -c -i "php,france,2019" wilders.csv  
+   59  grep -i "php,france,2019" wilders.csv  
+   60  grep -i "php;france;2019" wilders.csv  
+   61  grep -i "php;france;2019" wilders.csv > php_france_2019.csv 
+   62  grep -i "isabelle";"2019" wilders.csv
+   63  grep -i "isabelle";"2017" wilders.csv
+   64  ls
+   65  grep -r "isabelle;2017" wilders.csv
+   66  grep -c "isabelle,2017" wilders.csv
+   67  grep -v "isabelle,2017" wilders.csv
+   68  grep -v -i '('isabelle,2017')' wilders.csv
+   69  grep -i '('isabelle,2017')' wilders.csv
+   70  grep -v -i '('isabelle 2017')' wilders.csv
+   71  ls
+   72  grep -v -i '('isabelle,2017')' wilders.csv
+   73  grep -v -i '('isabelle 2017')' wilders.csv
+   74  grep -i '('isabelle 2017')' wilders.csv
+   75  grep -v '('isabelle 2017')' wilders.csv
+   76  grep -u '('isabelle 2017')' wilders.csv
+   77  grep -i "php,france,2019" wilders.csv > php_france_2019.csv 
+   78  cat php_france_2019.csv 
+   79  grep -i "france,2019" wilders.csv
+   80  grep -w "france,2019" wilders.csv
+   81* history | tail 
+   82  cat wilder.csv | grep -w isabelle
+   83  grep -e isabelle -e france -e 2017 wilders.csv 
+   84  grep -e 'isabelle' -e france -e 2017 wilders.csv 
+   85  grep -e -i isabelle -e -i france -e 2017 wilders.csv 
+   86  grep -e france wilders.csv
+   87  grep -e -i france wilders.csv
+   88  grep -i isabelle * wilders.csv 
+   89  ls
+   90  grep -i isabelle france 2017 wilders.csv 
+   91  grep -i "isabelle" "france" "2017" wilders.csv 
+   92  grep -i ('isabelle, france, 2017') wilders.csv 
+   93  grep -i '('isabelle, france, 2017')' wilders.csv 
+   94  grep -i '(isabelle, france, 2017)' wilders.csv 
+   95  grep -i 'isabelle, france, 2017' wilders.csv 
+   96  grep -i -v 'isabelle, france, 2017' wilders.csv 
+   97  grep -i -v '('isabelle, france, 2017')' wilders.csv 
+   98  grep -i -v '('php, isabelle, france, 2017')' wilders.csv 
+   99  clear
+  100  man sort
+  101  grep '('Isabelle, France, 2017')' wilders.csv 
+  102  grep 
+  103  grep 'Isabelle, France, 2017' < wilders.csv 
+  104  grep -i 'php, isabelle, france, 2017' wilders.csv 
+  105  grep -r -E "Isabelle|France" wilders.csv 
+  106  grep -r -E "Isabelle|France|2017" wilders.csv 
+  107  grep -e Isabelle wilders.csv 
+  108  grep -e isabelle wilders.csv 
+  109  grep -e -i isabelle wilders.csv 
+  110  grep -i -e isabelle wilders.csv 
+  111  grep -i -e isabelle -i -e france wilders.csv 
+  112  grep -i -e "isabelle, france" wilders.csv 
+  113  grep -i -e "isabelle  wilders.csv 
+  114  grep -i -e "isabelle"  wilders.csv 
+  115  grep -i -e "isabelle  wilders.csv 
+  116  grep -i -e "isabelle"  wilders.csv 
+  117  grep -e isabelle wilders.csv 
+  118  grep -i -e "isabelle, france" wilders.csv 
+  119  grep -i -e isabelle wilders.csv 
+  120  grep -i -e isabelle -e 2017 wilders.csv 
+  121  grep -i -e isabelle -e 2017 -e france wilders.csv 
+  122  grep -i -e isabelle -e 2017 wilders.csv 
+  123  grep -c php wilders.csv 
+  124  cd ..
+  125  ls
+  126  cd 7711169F/
+  127  ls
+  128  cd..
+  129  cd ..
+  130  ls
+  131  cd ..
+  132  ls
+  133  cd Windows/
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd usr/
+  140  ls
+  141  pwd
+  142  ls
+  143  mkdir text
+  144  ls
+  145  cd text/
+  146  touch text.txt
+  147  vi text.txt
+  148  ls
+  149  cd text/
+  150  ls
+  151  mano text.txt
+  152  vim text.txt
+  153  vim text.txt
+  154  vim text.txt
+  155  ls
+  156  grep -c "php,france,2019" wilders.csv 
+  157  grep -c "php,france,2017" wilders.csv 
+  158  grep -c "php;france;2017" wilders.csv 
+  159  grep -n "php;france;2017" wilders.csv 
+  160  grep -c "php" wilders.csv 
+  161  grep -i -c "php" wilders.csv 
+  162  grep -i -c "php, france, 2019" wilders.csv 
+  163  grep -i -wc "php,france,2019" wilders.csv 
+  164  grep -i "php,france,2019" wilders.csv -wc
+  165  grep -i "php,france,2019" wilders.csv | -wc 
+  166  grep -i "php,france,2019" wilders.csv | -wc -l > php_france_2019.csv 
+  167  ls
+  168  rm php_france_2019.csv 
+  169  grep -i "php,france,2019" wilders.csv | -wc -l > php_france_2019.csv 
+  170  ls
+  171  rm php_france_2019.csv 
+  172  ls
+  173  grep -i "php,france,2019" wilders.csv | wc -l > php_france_2019.csv 
+  174  cat php_france_2019.csv 
+  175  ls
+  176  rm php_france_2019.csv 
+  177  grep -i "france,2019,php" wilders.csv | wc -l > php_france_2019.csv 
+  178  cat php_france_2019.csv 
+  179  grep -i "france,2019,php" wilders.csv | sort -u
+  180  grep -i "toulouse,biarritz,france,2019,php" wilders.csv | sort -u
+  181  grep -i "biarritz,france,2019,php" wilders.csv | sort -u
+  182  grep -i -e "biarritz,france,2019,php" -e "toulouse,france,2019,php" wilders.csv | sort -u
+  183  grep -i -e "biarritz,france,javascript" -e "toulouse,france,javascript" wilders.csv | sort -u > > javascript_biarritz_toulouse.csv
+  184  grep -i -e "biarritz,france,javascript" -e "toulouse,france,javascript" wilders.csv | sort -u > javascript_biarritz_toulouse.csv
+  185  cat javascript_biarritz_toulouse.csv 
+  186  grep -i -e "biarritz,france,javascript" -e "toulouse,france,javascript" wilders.csv | sort -u 
+  187  grep -i -e "biarritz,france,javascript" -e "toulouse,france,javascript" wilders.csv | sort -u 
+  188  grep -i -e "biarritz,france,javascript" -e "toulouse,france,javascript" wilders.csv | sort -u -l
+  189  grep -i -e "biarritz,france,2*,javascript" -e "toulouse,france,2*,javascript" wilders.csv | sort -u 
+  190  grep -i -e "biarritz,javascript" -e "toulouse,javascript" wilders.csv | sort -u 
+  191  grep -i -e "biarritz,javascript" -i -e "toulouse,javascript" wilders.csv | sort -u 
+  192  grep -i -e "biarritz,france,2019,javascript" -e "toulouse,france,2019,javascript" wilders.csv | sort -u
+  193  grep -i -e "biarritz,france,'',javascript" -e "toulouse,france,'',javascript" wilders.csv | sort -u
+  194  grep -i -e "biarritz,france,*,javascript" -e "toulouse,france,*,javascript" wilders.csv | sort -u
+  195  grep -i -e "biarritz,france,2017,javascript" -e "toulouse,france,2017,javascript" wilders.csv | sort -u
+  196  grep -i -e "biarritz,france,2017,javascript" -e "toulouse,france,2017,javascript" wilders.csv | sort -u > campus.csv
+  197  cat campus.csv 
+  198  grep -i -e "biarritz,france,2018,javascript" -e "toulouse,france,2018,javascript" wilders.csv | sort -u > campus.csv
+  199  cat campus.csv 
+  200  grep -i -e "biarritz,france,2018,javascript" -e "toulouse,france,2018,javascript" wilders.csv | sort -u > campus2017.csv 
+  201  grep -i -e "biarritz,france,2017,javascript" -e "toulouse,france,2017,javascript" wilders.csv | sort -u > campus2018.csv 
+  202  grep -i -e "biarritz,france,2019,javascript" -e "toulouse,france,2019,javascript" wilders.csv | sort -u > campus2019.csv 
+  203  cat campus2018 campus2017 campus2019 > js_biarritz_toulouse.csv
+  204  ls
+  205  cat campus2017.csv campus2018.csv campus2019.csv > javascript_biarritz_toulouse.csv
+  206  cat javascript_biarritz_toulouse.csv 
+  207  history-
+  208  history 
+  209  tail
+  210  tail history.txt
+  211  histoty | tail -194
+  212  history | tail -194
+  213  history | tail -194 > history.txt
